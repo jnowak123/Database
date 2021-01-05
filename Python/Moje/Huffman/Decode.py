@@ -5,23 +5,22 @@ class Main:
         self.path = path
         self.decode()
 
-    def count_zeros(self, text, i):
-        count = 0
-        while text[i] == 0:
-            count += 1
+    def get_key(self, text):
+        dic = {}
+        key = ''
+        i = -1
+        while True:
             i += 1
-        return count
-
-    def get_tree(self, key):
-        pass
-
-    def make_key(self, text):
-        index = 0
-        index = self.count_zeros(text, 0)
-        key = '0'* index
-
-    def convert_text(self, text):
-        pass
+            if key[-1] == '1':
+                key = key[:-1]
+                key[-1] = '1'
+                
+            if text[i] = '0':
+                key = key + '0'
+            else:
+                dic[i+1:i+9] = key
+                key[-1] = '1'
+                i += 8
 
     def decode(self):
         filename, dummy_file_extension = os.path.splitext(self.path)

@@ -4,7 +4,7 @@ import random
 players = []
 connlist = []
 lives = 8
-
+ 
 def sendtoplayers(word):
     for player in connlist:
         player.send(word.encode())
