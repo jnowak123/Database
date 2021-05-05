@@ -1,4 +1,5 @@
 from collections import deque
+
 class Wirus:
 
     def __init__(self):
@@ -28,6 +29,4 @@ class Wirus:
         return sum(n.count('x') for n in self.room)
 
 Wirus()
-
-    
-    
+  
