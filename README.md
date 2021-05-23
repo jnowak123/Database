@@ -5,3 +5,4 @@ This is a public database of the code I write. I'm pretty sure there isn't anyth
 I also have a private database with things I legally can't share with the public. If you want access to that, email me :)
 
 Stay safe
+JN
