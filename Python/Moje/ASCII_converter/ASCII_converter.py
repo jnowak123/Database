@@ -34,7 +34,6 @@ def music():
     playsound('my_result.mp3')
 
 def main():
-    remove('my_result.mp3')
     file_format = question('Do you want to convert a (V)ideo or a (P)icture? ', ['V', 'P'])
     path = input('Input file path: ')
     if file_format == 'P':
