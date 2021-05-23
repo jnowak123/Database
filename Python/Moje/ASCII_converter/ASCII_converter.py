@@ -1,5 +1,5 @@
 import time
-from os import system
+from os import system, remove
 from threading import Thread
 from PIL import Image #pip install pillow
 import cv2 #pip install opencv-python
@@ -34,6 +34,7 @@ def music():
     playsound('my_result.mp3')
 
 def main():
+    remove('my_result.mp3')
     file_format = question('Do you want to convert a (V)ideo or a (P)icture? ', ['V', 'P'])
     path = input('Input file path: ')
     if file_format == 'P':
@@ -50,5 +51,6 @@ def main():
             system('cls')
             print(convert_image(Image.fromarray(frame)))
             success, frame = vidcap.read()
+    remove('my_result.mp3')
 
 main()        
