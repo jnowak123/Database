@@ -1,4 +1,4 @@
-Hello to the one person reading this (Olek)
+Hello to the one person reading this.
 
 This is a public database of the code I write. I'm pretty sure there isn't anything usefull here. If you're from my class, feel free to feel inspired by my szkopul solutions, though I'm nicely asking you not to copy them up front.
 

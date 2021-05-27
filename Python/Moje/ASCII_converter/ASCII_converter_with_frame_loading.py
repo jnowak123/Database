@@ -1,9 +1,11 @@
-from os import system
+from os import system, path
 from threading import Thread
 from PIL import Image #pip install pillow
 import cv2 #pip install opencv-python
 import moviepy.editor as mp#pip install ffmpeg moviepy
 from playsound import playsound
+from tkinter import Tk
+from tkinter.filedialog import askopenfilename
 import time
 
 ascii_chars = ['$', '@', 'B', '%', '8', '&', 'W', 'M', '#', '*', 'o', 'a', 'h', 'k', 'b', 'd', 'p', 'q', 'w', 'm', 'Z', 'O', '0', 'Q', 'L', 'C', 'J', 'U', 'Y', 'X', 'z', 'c', 'v', 'u', 'n', 'x', 'r', 'j', 'f', 't', '/', '\\', '|', '(', ')', '1', '{', '}', '[', ']', '?', '-', '_', '+', '~', '<', '>', 'i', '!', 'l', 'I', ';', ':', ',', '"', '^', '`', '.', ' ']
@@ -32,14 +34,15 @@ def music():
     playsound('my_result.mp3')
 
 def main():
-    file_format = question('Do you want to convert a (V)ideo or a (P)icture? ', ['V', 'P'])
-    path = input('Input image path: ')
+    Tk().withdraw()
+    fpath, file_format = path.splitext(askopenfilename())
+    fpath = fpath + file_format
     if file_format == 'P':
-        print(convert_image(Image.open(path)))
+        print(convert_image(Image.open(fpath)))
     else:
-        my_clip = mp.VideoFileClip(path)
+        my_clip = mp.VideoFileClip(fpath)
         my_clip.audio.write_audiofile(r'my_result.mp3')
-        vidcap = cv2.VideoCapture(path)
+        vidcap = cv2.VideoCapture(fpath)
         nframes = vidcap.get(cv2.CAP_PROP_FRAME_COUNT)
         success, frame = vidcap.read()
         frames = []

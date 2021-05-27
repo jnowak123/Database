@@ -1,10 +1,12 @@
 import time
-from os import system, remove
+from os import system, remove, path
 from threading import Thread
 from PIL import Image #pip install pillow
 import cv2 #pip install opencv-python
 import moviepy.editor as mp#pip install ffmpeg moviepy
 from playsound import playsound
+from tkinter import Tk
+from tkinter.filedialog import askopenfilename
 sleeptime = 0.0166 #changes sleep time between each frame, tune to your liking
 quality = 100 #changes the amount of columns, the more you want the more space wou will need on your terminal
 
@@ -34,8 +36,9 @@ def music():
     playsound('my_result.mp3')
 
 def main():
-    file_format = question('Do you want to convert a (V)ideo or a (P)icture? ', ['V', 'P'])
-    path = input('Input file path: ')
+    Tk().withdraw() # we don't want a full GUI, so keep the root window from appearing
+    fpath, file_format = path.splitext(askopenfilename())
+    fpath = fpath + file_format
     if file_format == 'P':
         print(convert_image(Image.open(path)))
     else:

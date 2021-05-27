@@ -13,25 +13,19 @@ def main():
         for x in czasy:
             z = heapq.heappop(sale)
             heapq.heappush(sale, z + x)
-            if sale[0] > t:
+            if sale[-1] > t:
                 return False
         return True
 
     l, p = lsale, n
 
     while l != p:
-        sr = p+l // 2
+        sr = (p+l) // 2
         if czydziala(sr):
             p = sr
         else:
             l = sr +1
-        print(l, p)
 
     print(l)
 
 main()
-
-        
-
-
-
