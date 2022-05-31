@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pogoda</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body onload="loadSite()">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="main">
+            <div class="panel header">Kim jesteś i gdzie jesteś?</div>
+            <div class="panel">
+                <input type="text" name="name" id="nameField" class="field" placeholder="Imię">
+                <input type="text" name="place" id="placeField" class="field" placeholder="Miejsce">
+            </div>
+            <div class="panel">
+                <button class="button" onclick="getWeather()">Sprawdź pogodę</button>
+            </div>
+            <div id="resp" class="panel" style="display: none"></div>
+
+            <!-- Do zadania z PW (usuń ten komentarz)     <div id="map"></div> -->
+        </div>
+        <div style="font-size:24px;">
+
+        <div id="map"></div>
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+            defer
+        ></script>
+<h1>Instrukcja</h1>
+<p>Celem ćwiczenia jest poznanie jednego ze sposobów pozyskiwania danych z zasobów internetu (zewnętrznych bądź wewnętrznych).<br/>
+    Zaproponowany sposób wykorzystuje <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch" >fetch api</a>. Jest to proste narzędzie, które posłuży do pobrania zasobu z zewnętrznego api. 
+    <br/>
+    Za owe zewnętrzne api posłuży nam:
+    <a href="https://openweathermap.org">https://openweathermap.org</a>
+    udostepniające dane pogodowe dla zadanej lokalizacji. W dalszym kroku będziemy poznawać sposoby użycia ciasteczek, które służa zapamiętywaniu danych o użytkowniku odwiedzającym stronę internetową w pamięci przeglądarki.
+</p>
+<ol>
+    <li>Zapoznaj się ze sposobem użycia fetch api oraz dokumentacją api openweathermap (metoda Current Weather Data)</li>
+    <li>Zaimplementuj wywołanie funkcji fetch, w celu pozyskania danych z api pogodowego. Jako klucz api możesz użyć: <b>14a24dee3920387f8b0cfd6295374d0c</b><br />
+    Jako parametr "q" podaj wpisany przez użytkownika tekst w pole "Miejsce". Wynik obejrzyj na konsoli.</li>
+    <li>Wyłuskaj z odpowiedzi pozyskanej z api dane np. o temperaturze i na ich podstawie przygotuj i wyświetl informacje o pogodzie dla użytkownika prezentując 
+        np. dla różnych przedziałów temperatury różne sposoby ubioru. <br />
+        Zauważ, że domyślnie po wejściu na stronę panel z tą informację (id=resp) jest ukryty. Możesz go wyświetlić w js, ustawiając styl display z powrotem na "block":
+        getDocumentById('resp').style.display ='block';  <br />
+    <img src="img/zimno.png" style="width:30%" >
+    <img src="img/wPorzadku.png"style="width:30%" >
+    <img src="img/cieplo.png" style="width:30%">
+</li>
+<li>Obsłuż sytuacje, w których użytkownik nie poda imienia, nazwy miejsca, bądź nazwa miejsca będzie błędna
+<img src="img/bledneMiasto.png" style="width:30%">
+</li>
+    <li>Zapisz dane użytkownika (imię) w ciasteczku, tak by przy kolejnym wejściu na stronę pole to zostało automatycznie uzupełnione. Mozesz skorzystać z gotowych funkcji wymienionych <a href="https://www.w3schools.com/js/js_cookies.asp">tutaj</a></li>
+
+</ol>
+<h1>Na pracy własnej</h1>
+<ul>
+    <li> Zamieść na stronie mapę google, która po wpisaniu miejscowości i zaczytaniu danych z api pogodowego, wycentruje się i wskaże znacznikiem owe miejsce. <br />
+        Jest to bardzo proste, skorzystaj z gotowego kodu <a href="https://developers.google.com/maps/documentation/javascript/adding-a-google-map#maps_add_map-javascript">stąd</a>
+    podmieniając interesujące nas elementy. (Zwróć uwagę, że nalezy dodać po małym fragmencie do pliku js, html i css!) </li>
+    <li> Rozbuduj stronę wykorzystując kolejne api. Proponuję api quizowe: <a href="https://opentdb.com/">https://opentdb.com/</a>. Przy każdym wejściu na stronę, prezentuj użytkownikowi nowe pytanie wraz z odpowiedziami. </li>
+    <li> Przy pomocy ciasteczek zliczaj jego poprawne i błędne odpowiedzi, wyświetlając te statystyki. Zachowaj przy tym dotychczasowe funkcjonalności strony. </li>
+</ul>
+        </div>
+        <script src="script.js" async defer></script>
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+            defer></script>
+
+    </body>
+</html>
