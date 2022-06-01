@@ -1,11 +1,12 @@
-from itertools import count
-from turtle import Screen
+from time import sleep, time
+import copy
 from PIL import Image
 import numpy
 from ppadb.client import Client
 
 columns = (150, 400, 650, 900)
-rows = (850, 1100, 1350, 1600) # for an 1080x2400 phone
+fourmode = (345, 1150)
+rows = (850, 1100, 1350, 1600) # for an 1080x2400 phone and for 4x4 mode
 
 
 def getDevice():
@@ -36,7 +37,7 @@ def createBoard(device):
     return board
 
 def solveBoard(board):
-    for x in range(3):
+    for x in range(5):
 
         for row in range(len(board)):
             for column in range(len(board[0]) -2):
@@ -52,6 +53,26 @@ def solveBoard(board):
                         board[row][column +2] = 2
                     else:
                         board[row][column +2] = 1
+
+            if board[row].count(0) == 2:
+                empty = []
+                for column in range(len(board)):
+                    if board[row][column] == 0:
+                        empty.append(column)
+
+                x = copy.deepcopy(board)
+                
+                x[row][empty[0]] = 1
+                x[row][empty[1]] = 2
+                if x[row] in board:
+                    board[row][empty[0]] = 2
+                    board[row][empty[1]] = 1
+                else:
+                    x[row][empty[0]] = 2
+                    x[row][empty[1]] = 1
+                    if x[row] in board:
+                        board[row][empty[0]] = 1
+                        board[row][empty[1]] = 2
 
             if board[row].count(1) == len(board[0]) /2:
                 for column in range(len(board[0])):
@@ -78,16 +99,45 @@ def solveBoard(board):
                     else:
                         board[row +2][column] = 1
 
+        for column in range(len(board)):
+            count = [0, 0, 0]
+            for row in range(len(board)):
+                count[board[row][column]] += 1
 
-def tap(device, column, row):
+            if count[1] == len(board) /2:
+                for row in range(len(board)):
+                    if board[row][column] == 0:
+                        board[row][column] = 2
+
+            elif count[2] == len(board) /2:
+                for row in range(len(board)):
+                    if board[row][column] == 0:
+                        board[row][column] = 1
+
+def inputSolution(board, device, ogboard):
+    for row in range(len(board)):
+        for column in range(len(board)):
+            if board[row][column] == 1 and ogboard[row][column] == 0:
+                tap(columns[column], rows[row], device)
+            elif board[row][column] == 2 and ogboard[row][column] == 0:
+                tap(columns[column], rows[row], device)
+                tap(columns[column], rows[row], device)
+
+def tap(column, row, device):
     device.shell(f'input tap {column} {row}')
 
 def main():
 
-    device = getDevice()
-    board =createBoard(device)
-    solveBoard(board)
-    [print(row) for row in board]
+    for x in range(1000):
+        device = getDevice()
+        tap(fourmode[0], fourmode[1], device)
+        sleep(0.4)
+        board = createBoard(device)
+        ogboard = copy.deepcopy(board)
+        solveBoard(board)
+        inputSolution(board, device, ogboard)
+        sleep(4)
+    
 
 main()
 
