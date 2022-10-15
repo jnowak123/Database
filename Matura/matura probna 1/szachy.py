@@ -1,4 +1,4 @@
-with open("dane/szachy_przyklad.txt") as f:
+with open("dane/szachy.txt") as f:
     file = [line.strip() for line in f]
     plansze = []
     for i in range(int((len(file)+1)/9)):
@@ -55,15 +55,16 @@ def findpiece(piece, board):
                 return x,y
     return 10, 10
 
-def betweencheck(x, y, X, Y, board):
-    if x != X:
-        for i in range(x, X):
-            if board[y][i] != ".":
+def betweencheck(k, w, board):
+    if k[0] == w[0]:
+        for i in range(k[1] +1, w[1] -1):
+            if board[k[0]][i] != '.':
                 return False
-    if y != Y:
-        for i in range(y, Y):
-            if board[i][x] != ".":
+    if k[1] == w[1]:
+        for i in range(k[0] +1, w[0] -1):
+            if board[i][k[1]] != '.':
                 return False
+        
     return True
 
 ans = [0, 0]
@@ -71,12 +72,11 @@ for plansza in plansze:
     K = findpiece("K", plansza)
     w = findpiece("w", plansza)
     if K[0] == w[0] or K[1] == w[1]:
-        if betweencheck(K[0], K[1], w[0], w[1], plansza):
+        if betweencheck(K, w, plansza):
             ans[0] += 1
     k = findpiece("k", plansza)
     W = findpiece("W", plansza)
     if k[0] == W[0] or k[1] == W[1]:
-        if betweencheck(k[0], k[1], W[0], W[1], plansza):
+        if betweencheck(k, W, plansza):
             ans[1] += 1
-    print(plansza, K, w, k, W)
 print(ans)

@@ -1,0 +1,13 @@
+6.1 165
+
+6.2 233, 303, 134, 280, 127
+
+6.3 
+314	Sebastian	Rabaj
+172	Monika	Kado
+299	Alicja	Kronecka
+
+6.4
+Mateusz	Kordas
+Krzysztof	Michalak
+Oliwier	Ziolko
