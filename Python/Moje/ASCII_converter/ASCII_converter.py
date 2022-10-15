@@ -4,10 +4,10 @@ from threading import Thread
 from PIL import Image #pip install pillow
 import cv2 #pip install opencv-python
 import moviepy.editor as mp#pip install ffmpeg moviepy
-from playsound import playsound
+from playsound import playsound #pip install playsound
 from tkinter import Tk
 from tkinter.filedialog import askopenfilename
-sleeptime = 0.0166 #changes sleep time between each frame, tune to your liking
+sleeptime = 0.0166 #changes sleep time between each frame, tune to your pc
 quality = 100 #changes the amount of columns, the more you want the more space wou will need on your terminal
 
 ascii_chars = ['$', '@', 'B', '%', '8', '&', 'W', 'M', '#', '*', 'o', 'a', 'h', 'k', 'b', 'd', 'p', 'q', 'w', 'm', 'Z', 'O', '0', 'Q', 'L', 'C', 'J', 'U', 'Y', 'X', 'z', 'c', 'v', 'u', 'n', 'x', 'r', 'j', 'f', 't', '/', '\\', '|', '(', ')', '1', '{', '}', '[', ']', '?', '-', '_', '+', '~', '<', '>', 'i', '!', 'l', 'I', ';', ':', ',', '"', '^', '`', '.', ' ']
@@ -39,7 +39,8 @@ def main():
     Tk().withdraw() # we don't want a full GUI, so keep the root window from appearing
     fpath, file_format = path.splitext(askopenfilename())
     fpath = fpath + file_format
-    if file_format == 'P':
+    print(file_format)
+    if file_format == '.jpg':
         print(convert_image(Image.open(path)))
     else:
         my_clip = mp.VideoFileClip(path)
