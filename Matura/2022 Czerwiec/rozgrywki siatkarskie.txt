@@ -1,0 +1,39 @@
+6.1 109
+
+6.2
+Wiralow		41
+Kukurykow 	39
+Szymbark	32
+Preziowo	30
+Bialowo		21
+Gorkowo		18
+Kielkowo	17
+Licowo 		15
+Sadelko		15
+Radelko		15
+Koszalkowo	15
+Orecin		14
+Barylkowo	14
+Warkowo		13
+Rezkow		13
+Lewkowo		12
+
+6.3
+Katarzyna Olszewska	25
+Franciszek Dudek	27
+Natalia	Jankowska	36
+Barbara	Kaczmarek	21
+Monika	Kowalczyk	26
+Szymon	Rutkowski	21
+Kamila	Majewska	21
+
+6.4
+Jan	Malinowski
+Anna	Nowak
+Agnieszka	Wieczorek
+Kamila	Majewska
+Piotr	Lewandowski
+Franciszek	Dudek
+Barbara	Kaczmarek
+Zofia	Grabowska
+
