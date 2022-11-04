@@ -1,0 +1,13 @@
+1. t4	905
+2. 22
+3.
+a)	maks T2 48	min T4 24
+b)	maks T5 125	min T1 3
+4. zał statki.png
+
+5.
+a)	po wszystkim	545844	
+	maks	552335	2018-11-24
+			
+b)	min	6399	
+

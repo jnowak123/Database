@@ -2,10 +2,25 @@
 122
 
 2.
-Konin		9
-Grudziadz	9
+9	Grudziadz
 
 3.
+swietokrzyskie	8.00
+lodzkie	7.00
+opolskie	7.00
+lubuskie	6.50
+slaskie	5.53
+malopolskie	5.33
+lubelskie	5.00
+podkarpackie	5.00
+dolnoslaskie	4.75
+kujawsko-pomorskie	4.25
+wielkopolskie	4.25
+podlaskie	4.00
+warminsko-mazurskie	4.00
+zachodniopomorskie	4.00
+mazowieckie	2.67
+pomorskie	2.67
 
 4.
 Male nutki
@@ -20,3 +35,6 @@ Zlote saksofony
 Piszczace trabki
 
 5.
+4	3	Wiosenne bebny
+5	4	Powolne fortepiany
+4	1	Niebieskie kontrabasy
