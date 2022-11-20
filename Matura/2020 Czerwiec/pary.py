@@ -44,6 +44,6 @@ for row in ls:
     row = row.split()
     row[0] = int(row[0])
     if row[0] == len(row[1]):
-        if -row[0] < solution[0] or (-row[0] == solution[0] and row[1] < solution[1]):
+        if row[0] < solution[0] or (row[0] == solution[0] and row[1] < solution[1]):
             solution = row
 print(solution)
