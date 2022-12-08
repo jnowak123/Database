@@ -1,0 +1,94 @@
+ID_FILMU;TYTUL;ODCINKI
+f01;Odlotowe agentki;29
+f02;The Grich;1
+f03;Czarna lista;160
+f04;Psia akademia;19
+f05;Emily w Paryżu;10
+f06;Wiedźmin;16
+f07;Sprzątaczka;10
+f08;Alvin i wiewiórki;208
+f09;Harry Potter kamień filozoficzny;1
+f10;Harry Potter i komnata tajemnic;1
+f11;Harry Potter i więźeń azkabanu;1
+f12;Harry Potter i turniej trójmagiczny;1
+f13;Harry Potter i zakon feniksa;1
+f14;Harry Potter i książę półkrwi;1
+f15;Harry Potter insygnia śmierci cz.I;1
+f16;Harry Potter insygnia śmierci cz.II;1
+f17;Hobbit: Niezwykła podróż;1
+f18;Hobbit: Pustkowie  Smauga;1
+f19;Hobbit: Bitwa Pięciu Armii;1
+f20;Władca Pierścieni: Drużyna Pierścienia;1
+f21;Władca Pierścieni: Dwie wieże;1
+f22;Władca Pierścieni: Powrót króla;1
+f23;Ania, nie Anna;27
+f24;Piraci z Karaibów: Klątwa Czarnej Perły;1
+f25;Piraci z Karaibów: Skrzynia umarlaka;1
+f26;Piraci z Karaibów: Na krańcu świata;1
+f27;Piraci z Karaibów: Na nieznanych wodach;1
+f28;Piraci z Karaibów: Zemsta Salazara;1
+f29;Świat według Bundych;261
+f30;Lupin;10
+f31;Fantastyczne zwierzęta i jak je znaleźć;1
+f32;Fantastyczne zwierzęta: Zbrodnie Grindewalda;1
+f33;Squid Game;9
+f34;Me contro te: Zemsta Pana S;1
+f35;Moja przyjaciółka Anne Frank;1
+f36;Dyktator;1
+f37;Włoska robota;1
+f38;Top Gun;1
+f39;13 Godzin: Tajna misja w Bengazi;1
+f40;Bulgasal: Nieśmiertelni;16
+f41;Jestem Georgina;6
+f42;Wybrana;6
+f43;Archiwum 81;8
+f44;Odludzie;1
+f45;Zielona mila;1
+f46;Godziny ciszy;1
+f47;The Silent Sea;8
+f48;I że cię nie opuszczę;1
+f49;Niewidzialny człowiek;1
+f50;Voir: Potęga kina;6
+f51;Emma;1
+f52;Kojoty;6
+f53;Panna Julia;1
+f54;Światło nocy;16
+f55;Szczera prawda;7
+f56;Chłopiec zwany Gwiazdką;1
+f57;Buntownicy;1
+f58;Supernova;1
+f59;Inwazja;1
+f60;Transformers: Wiek zagłady;1
+f61;Cathedral of the Sea;8
+f62;Hellbound;6
+f63;Miłość bez miary;1
+f64;Szefowa;1
+f65;Ultimatum Bourne'a;1
+f66;Nieuchwytny cel 2;1
+f67;Nagi instynkt;1
+f68;Lew z Flandrii;1
+f69;Biuro;204
+f70;Miłość i kłamstwa;7
+f71;Dorwać mordercę;4
+f72;Zemsta rewolwerowca;1
+f73;Kamera;1
+f74;Barwy gangu;1
+f75;Wilkołaki z Trzeciej Rzeszy;1
+f76;Niebezpieczna piękność;1
+f77;Mój czas dla ciebie;10
+f78;Odliczanie: Misja kosmiczna Inspiration4;5
+f79;Słaba płeć?;1
+f80;Ile waży koń trojański?;1
+f81;Astrologiczny przewodnik po złamanych sercach;6
+f82;Yoo Young-chul: Morderca w żółtej pelerynie;3
+f83;Porcelanowy król;20
+f84;Wojownicza księżniczka Maya;9
+f85;Korporacja Konspiracja;10
+f86;Insiders;7
+f87;Misfit: Serial;8
+f88;My Name;8
+f89;Kocie wiedźmy;8
+f90;Jaguar;6
+f91;Nevertheless;10
+f92;Pani dziekan;6
+f93;Czarne lustro;26

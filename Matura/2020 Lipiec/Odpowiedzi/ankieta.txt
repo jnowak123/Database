@@ -1,0 +1,40 @@
+1. Kobiety - 161, Mężczyźni - 119
+
+2.
+rower		13
+tramwaj	20
+samochod	4
+pociag	5
+autobus	1
+
+3.
+Slaskie		23
+Wielkopolskie	30
+Mazowieckie		43
+Dolnoslaskie	30
+
+4.
+Maria	Bobowik	Lubelskie
+Elzbieta	Borowska	Malopolskie
+Anna	Borowska	Malopolskie
+Sebastian	Busma	Lubuskie
+Marta	Czajewska	Pomorskie
+Barbara	Dziegielewska	Pomorskie
+Piotr	Gawkowski	Podkarpackie
+Kamila	Glowacka	Swietokrzyskie
+Andrzej	Iwaszczuk	Mazowieckie
+Michal	Janasz	Mazowieckie
+Justyna	Jankowska	Mazowieckie
+Marcin	Jasinski	Mazowieckie
+Grzegorz	Kanadys	Warminsko - Mazurskie
+Katarzyna	Karwowska	Mazowieckie
+Marta	Kimsza	Pomorskie
+Klara	Klimaszewska	Dolnoslaskie
+Emilia	Kobeszko	Lubelskie
+Maria	Korol	Malopolskie
+Piotr	Korzunowicz	Dolnoslaskie
+Karolina	Kozlowska	Mazowieckie
+Monika	Krasowska	Lubelskie
+Natalia	Solowiej	Slaskie
+
+5. 3250

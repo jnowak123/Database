@@ -1,4 +1,4 @@
-with open('DANE/identyfikator_przyklad.txt') as f:
+with open('DANE/identyfikator.txt') as f:
     identyfikatory = [x.strip() for x in f]
 
 for i, identyfikator in enumerate(identyfikatory):
