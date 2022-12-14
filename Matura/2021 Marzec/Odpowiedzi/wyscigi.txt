@@ -1,3 +1,38 @@
 1. Chris	Froome	83:56:40
 
 2. Maciej	Bodnar	5
+
+3.
+2008
+John-Lee	Augustyn	22
+Gerald	Ciolek	22
+Roman	Kreuziger	22
+2009
+Rigoberto	Uran	22
+2010
+Fabio	Felline	20
+2011
+Anthony	Delaplace	22
+2012
+Thibaut	Pinot	22
+Peter	Sagan	22
+2013
+Danny	van Poppel	20
+2014
+Danny	van Poppel	21
+2015
+Merhawi	Kudus	21
+2016
+Sondre Holst	Enger	23
+Alexis	Gougeard	23
+Dylan	Groenewegen	23
+Luka	Pibernik	23
+Timo	Roosen	23
+2017
+Elie	Gesbert	22
+
+4.
+2012	46
+
+
+6.
