@@ -1,0 +1,21 @@
+4.1
+a) 21	12.08.2022	1.09.2022
+b) 18
+
+4.2
+styczeń	2452
+luty	1381
+marzec	3755
+kwiecień	4213
+maj	3935
+czerwiec	5566
+lipiec	6516
+sierpień	2698
+wrzesień	5680
+październik	12225
+listopad	14761
+grudzień	840
+
+4.3
+93
+19152

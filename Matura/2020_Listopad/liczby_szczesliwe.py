@@ -13,10 +13,10 @@ def remove_nums(ls, x):
             ans.append(num)
     return(ans)
 
-count = 1
-while lucky_nums[-1] != lucky_nums[count]:
-    count += 1
-    lucky_nums = remove_nums(lucky_nums, lucky_nums[count])
+num = 1
+while lucky_nums[-1] != lucky_nums[num]:
+    num += 1
+    lucky_nums = remove_nums(lucky_nums, lucky_nums[num])
 
 print(lucky_nums)
 
