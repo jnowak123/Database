@@ -1,0 +1,6 @@
+1. 18
+2. 2, 145, 1, 40585
+3. 
+pierwsza liczba ciągu: 746
+długość: 5
+NWD: 2

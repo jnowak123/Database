@@ -1,0 +1,6 @@
+
+def partition(ls, low, high):
+    pivot = high
+    i = low -1
+    for j in range(low, high)
+

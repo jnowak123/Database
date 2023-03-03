@@ -1,8 +1,11 @@
-w = 0
-n = 11111
-while n != 0:
-    w = w + n%10
-    print(w)
-    n = n // 10
+def nwd(a, b):
+    div = 0
+    if a > b:
+        div = b
+    else:
+        div = a
+    while a%div != 0 or b%div != 0:
+        div -= 1
+    return div
 
-print(w)
+print(nwd(90, 70))
