@@ -1,0 +1,29 @@
+6.1
+Nela	Aabacka	1282	2	80
+Aaricia	Zgbacka	1348	29	210
+
+6.2
+100	B
+48	C
+53	D
+
+6.3 Ramzes	Hcbacki	5
+
+6.4
+Nieszczerzyn	B	17
+Manipulatowo	B	31
+Wielka Wola	B	25
+Piarowa	B	16
+Aniolkowo	B	12
+Manipulatowo	C	14
+Piarowa	C	18
+Aniolkowo	C	8
+Wielka Wola	C	11
+Nieszczerzyn	C	9
+Piarowa	D	8
+Wielka Wola	D	7
+Manipulatowo	D	11
+Aniolkowo	D	7
+Nieszczerzyn	D	4
+
+6.5 72

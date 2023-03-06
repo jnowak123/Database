@@ -1,0 +1,38 @@
+5.1 7.24
+
+5.2
+czujnik1 287	
+czujnik2 286/288	
+czujnik3 283	
+czujnik4 284	
+czujnik5 284	
+czujnik6 287/296	
+czujnik7 286	
+czujnik8 288	
+czujnik9 285	
+czujnik10 286
+
+5.3
+Miesiąc	Temp
+January	0.91
+February	0.16
+March	2.3
+April	12.84
+May	13.56
+June	14.54
+July	22.22
+August	22.23
+September	16.03
+October	15.03
+November	15.54
+December	0.65
+
+5.4 (-10, 15> 850
+
+5.5
+	        5-05-2017				                        7-07-217			
+	        czujnik1	czujnik2	czujnik8	czujnik9	czujnik1	czujnik2	czujnik8	czujnik9
+Wniosek I	9.46	    9.39	    14.52	    10.45	    23.42	    19.39	    24.93	    20.7
+Wniosek II	9.46	    9.39	    15.53	    10.45	    23.42	    19.39	    26.67	    20.7
+Wniosek III	10.36	    10.29	    16.43	    11.35	    23.42	    19.39	    26.67	    20.7
+
