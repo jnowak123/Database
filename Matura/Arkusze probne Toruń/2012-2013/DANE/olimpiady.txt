@@ -1,0 +1,34 @@
+ID_olimpiady;Nazwa;Zwolnienie_z_przedmiotu_na_maturze
+1;Olimpiada Języka Białoruskiego;Język białoruski
+2;Ogólnopolska Olimpiada Języka Niemieckiego;Język niemiecki
+3;Ogólnopolska Olimpiada Języka Angielskiego;Język angielski
+4;Olimpiada Języka Rosyjskiego;Język rosyjski
+5;Olimpiada Języka Hiszpańskiego;Język hiszpański
+6;Olimpiada Biologiczna;Biologia
+7;Olimpiada Języka Łacińskiego i Kultury Antycznej;Język łaciński i kultura antyczna
+8;Olimpiada Chemiczna;Chemia
+9;Olimpiada Filozoficzna;Filozofia
+10;Olimpiada Geograficzna;Geografia
+11;Olimpiada Fizyczna;Fizyka i Astronomia
+12;Olimpiada Artystyczna;Historia sztuki lub historia muzyki
+13;Ogólnopolska Olimpiada Historyczna;Historia
+14;Wiedza o Polsce i Świecie Współczesnym;Wiedza o społeczeństwie
+15;Olimpiada Literatury i Języka Polskiego;Język polski
+16;Olimpiada Matematyczna;Matematyka
+17;Olimpiada Informatyczna;Informatyka
+18;Olimpiada Wiedzy o Państwie i Prawie
+19;Olimpiada Prawosławnej Wiedzy Religijnej
+20;Olimpiada Wiedzy o Prawach Człowieka
+21;Olimpiada Przedsiębiorczości
+22;Europejska Olimpiada Społeczno-Prawna
+23;Olimpiada Wiedzy o Integracji Europejskiej
+24;Olimpiada z wiedzy o planowaniu i zarządzaniu karierą zawodową
+25;Olimpiada Teologii Katolickiej
+26;Olimpiada Wiedzy o Państwie i Prawie
+27;Olimpiada Prawosławnej Wiedzy Religijnej
+28;Olimpiada z Astronomii i Astrofizyki
+29;Olimpiada Wiedzy Ekologicznej
+30;Ogólnopolska Olimpiada  Wiedzy o Prawie
+31;Misyjna Olimpiada Znajomości Afryki
+32;Olimpiada Lingwistyki Matematycznej
+33;Olimpiada Języka Francuskiego;Język francuski
