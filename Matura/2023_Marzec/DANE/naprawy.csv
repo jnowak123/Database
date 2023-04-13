@@ -1,0 +1,23 @@
+id_naprawy,nazwa,cena_materialow,cena_roboczo_h
+p1,wymiana klockow hamulcowych,360,80
+p2,wymiana tarcz hamulcowych,432,80
+p3,wymiana paska klinowego,50,35
+p4,wymina amortyzatora,400,90
+p5,wymiana koncowki drazka,35,45
+p6,wymiana kola pasowego walu korbowego,130,85
+p7,wymiana filtra paliwa,190,35
+p8,wymiana filtra powietrza,100,30
+p9,wymiana filtra oleju,55,30
+p10,wymiana filtra kabinowego,136,45
+p11,wymiana chlodnicy silnika,680,85
+p12,wymiana sprezyny zawieszenia,420,95
+p13,wymiana panewek walu korbowego,690,130
+p14,wymiana wachaczy,1000,110
+p15,wymiana swiec,200,70
+p16,wymiana mechanizmu sprzegla ,1900,155
+p17,wymiana kola zamachowego dwumasowego,1800,140
+p18,wymiana pompy spryskiwacza,100,75
+p19,wymiana linki gazu,145,46
+p20,wymiana pompy paliwa,650,84
+p21,wymiana lozyska kola,505,135
+p22,wymiana resora,605,145

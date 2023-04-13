@@ -1,0 +1,23 @@
+﻿id_naprawy	nazwa	cena_materialow	cena_roboczo_h
+p1	wymiana klocków hamulcowych	360	80
+p2	wymiana tarcz hamulcowych	432	80
+p3	wymiana paska klinowego	50	35
+p4	wymina amortyzatora	400	90
+p5	wymiana końcówki drążka	35	45
+p6	wymiana koła pasowego wału korbowego	130	85
+p7	wymiana filtra paliwa	190	35
+p8	wymiana filtra powietrza	100	30
+p9	wymiana filtra oleju	55	30
+p10	wymiana filtra kabinowego	136	45
+p11	wymiana chłodnicy silnika	680	85
+p12	wymiana sprężyny zawieszenia	420	95
+p13	wymiana panewek wału korbowego	690	130
+p14	wymiana wachaczy	1000	110
+p15	wymiana świec	200	70
+p16	wymiana mechanizmu sprzęgła 	1900	155
+p17	wymiana koła zamachowego dwumasowego	1800	140
+p18	wymiana pompy spryskiwacza	100	75
+p19	wymiana linki gazu	145	46
+p20	wymiana pompy paliwa	650	84
+p21	wymiana łożyska koła	505	135
+p22	wymiana resora	605	145

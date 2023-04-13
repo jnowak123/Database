@@ -1,0 +1,6 @@
+5.1 wymiana koncowki drazka	12	
+5.2 Mercedes	Sprinter	32	
+5.3 AA023	
+5.4 AA019	23:12:00	
+5.5 a) AA019	9462.79	
+    b) 96162.56	
