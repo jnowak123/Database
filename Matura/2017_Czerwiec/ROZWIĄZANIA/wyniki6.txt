@@ -1,0 +1,42 @@
+6.1
+Word
+Publisher
+Writer
+Foxit Redactor for Office
+
+6.2
+Calligra Suite
+gDOC
+DocuPDF
+GFI Security
+IBM Data Software
+OKAY
+Sales Partner
+Subiekt
+SolarWinds Systems Management
+SolarWinds Free System Management Tools
+
+6.3
+SolarWinds Systems Management SolarWinds 57520
+MicroStation Bentley 35736
+GFI Security GFI Software 14811
+
+6.4
+Lightroom
+Audition
+Scribus
+Adobe PageMaker
+QuarkXPress
+
+
+6.5
+nazwa_pakietu	ilosc_darmowych	ilosc_platnych	
+Expression Studio	1	3	
+Logo-Gry	2	8	
+MicroStation	1	4	
+dbForge	1	5	
+ApexSQL Developer	2	7	
+DaemonTools Lite	1	8	
+IconCool Software	1	4	
+Sothink Suite	1	6	
+Foxit PDF Development Kits	1	2	

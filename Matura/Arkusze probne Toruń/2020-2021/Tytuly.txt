@@ -1,0 +1,5 @@
+kod;tytul
+1;lekarz
+2;dr n. med.
+3;dr hab. n. med.
+4;prof. dr hab. n. med.

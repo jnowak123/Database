@@ -1,0 +1,75 @@
+1.
+a) 	wartość: 				43610
+	kwota amortyzacji wiek: 	40050
+	kwota amortyzacji przebieg:	5340
+
+b) 	marka i model:	DAF LF45
+	Nr_rejestracyjny: ERA 132 TR
+	wartość:		17390
+
+2.
+a)	Marka		Ilość
+	DAF		30
+	Iveco		12
+	MAN		18
+	Mercedes	17
+	Renault	17
+	Scania	17
+	Volvo		23
+
+b)	Marka		Średni przebieg
+	DAF		273240
+	Iveco		657435
+	MAN		289637
+	Mercedes	486546
+	Renault	519936
+	Scania	557118
+	Volvo		307130
+
+3.	
+2006	Iveco	5
+2007	MAN	1
+	Mercedes	1
+2008	Volvo	4
+2009	DAF	2
+	Iveco	2
+	MAN	4
+	Mercedes	4
+	Renault	2
+	Scania	4
+	Volvo	8
+2010	DAF	4
+	Iveco	2
+	MAN	2
+	Mercedes	4
+	Renault	6
+	Volvo	2
+2011	DAF	2
+	Mercedes	4
+	Renault	6
+	Scania	6
+2012	DAF	8
+	Iveco	3
+	MAN	3
+	Mercedes	1
+	Renault	3
+	Scania	5
+	Volvo	4
+2013	DAF	11
+	MAN	3
+	Scania	2
+2014	DAF	3
+	MAN	5
+	Mercedes	1
+2015	Mercedes	2
+	Volvo	5
+
+4.
+Marka_i_model	Nr_rejestracyjny	Data_ostatniego_remontu	ile od ostatniego remontu
+Mercedes Atego	ERA 112 TR	2015-01-10	722
+Iveco Strails	ERA 212 TR	2015-01-24	708
+Iveco Strails	ERA 213 TR	2015-01-24	708
+Iveco TrakkerEuro5	ERA 214 TR	2015-01-24	708
+
+
+

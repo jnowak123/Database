@@ -1,0 +1,16 @@
+Id; Tytul; Godzin; Punktow
+1; Myslenie komputacyjne; 4; 5
+2; ECDL Advanced; 30; 10
+3; ECDL Base; 20; 7
+4; Edytor; 10; 4
+5; Arkusz kalkulacyjny; 16; 6
+6; Baza danych; 20; 5
+7; Grafika mened¿erska i prezentacyjna; 12; 5
+8; Technologie informacyjne - wstêp; 16; 4
+9; Algorytmy w praktyce; 30; 10
+10; Programowanie obiektowe - wstep; 20; 10
+11; Podstawy programowania -  Java; 20; 10
+12; Programowanie w jezyku Python; 15; 8
+13; Programowanie w jezyku C++; 30; 12
+14; Programowanie w VBO; 15; 8
+15; Jezyk SQL; 15; 8

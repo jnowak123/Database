@@ -3,7 +3,7 @@ ID_aktywnosci	nazwa_aktywnosci
 2	boks
 3	cycling
 4	flamenco
-5	gimnastyka kregos³upa
+5	gimnastyka kregosÂ³upa
 6	joga
 7	lodowisko
 8	masaz

@@ -1,0 +1,179 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #1d1d1d;
+    color: #FFFFFF;
+}
+
+h1, h2, h3 {
+    color: inherit;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: inherit;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #FFFFFF;
+    color: #1d1d1d;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+/* Header Styles */
+header {
+    background-color: #1d1d1d;
+    color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+nav h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin-left: 2rem;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #FFFFFF;
+    color: #1d1d1d;
+}
+
+.dark-mode h1, .dark-mode h2, .dark-mode h3 {
+    color: inherit;
+}
+
+.dark-mode p {
+    color: inherit;
+}
+
+.dark-mode a {
+    color: inherit;
+}
+
+.dark-mode .btn {
+    background-color: #1d1d1d;
+    color: #FFFFFF;
+}
+
+header.dark-mode {
+    background-color: #FFFFFF;
+    color: #1d1d1d;
+}
+
+.dark-mode nav li {
+    margin-left: 2rem;
+}
+
+.dark-mode .menu-icon {
+    color: #FFFFFF;
+}
+
+/* Hero Section Styles */
+#hero {
+    background-image: url(hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero h1 {
+    text-align: center;
+    color: inherit;
+}
+
+#hero p {
+    text-align: center;
+    color: inherit;
+    margin-bottom: 2rem;
+}
+
+/* About Section Styles */
+#about {
+    background-color: #333333;
+    padding: 5rem;
+}
+
+/* Portfolio Section Styles */
+#portfolio {
+    background-color: inherit;
+    padding: 5rem 0;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.project {
+    width: 30%;
+    background-color: #F5F5F5;
+    border-radius: 1rem;
+    padding: 3
+}

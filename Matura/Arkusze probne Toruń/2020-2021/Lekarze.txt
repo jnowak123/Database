@@ -1,0 +1,11 @@
+Identyfikator;Nazwisko;Imiê;Imiê drugie;id tytu³u;id specjalizacji
+1;Abacki;Jan;Kanty;1;1
+2;Babacka;Violetta;Amalia;1;1
+3;Cabacki;Ryszard;Aureliusz;1;4
+4;Dabacki;Konstanty;Kleofas;1;2
+5;Dabacki;Franciszek;Benedykt;3;3
+6;Dabacka;Imogena;;1;2
+7;Ebacki;Adam;Kalasanty;4;3
+8;Fabacka;Matylda;Joanna;2;1
+9;Gabacki;Antoni;;1;1
+10;Habacki;Inocenty;Juliusz;3;4

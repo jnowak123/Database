@@ -1,0 +1,5 @@
+id_szczepionki;nazwa
+1;BioNTex Pfizer
+2;Moderna
+3;Oxford AstraZeneca
+4;Johnson & Johnson

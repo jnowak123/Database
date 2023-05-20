@@ -1,0 +1,6 @@
+kod;specjalizacja
+1;lekarz rodzinny
+2;kardiolog
+3;diabetolog
+4;chirurg
+5;ginekolog

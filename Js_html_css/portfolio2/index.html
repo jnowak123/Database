@@ -1,0 +1,114 @@
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/c3e5594574.js" crossorigin="anonymous"></script>
+<script src='index.js'></script>
+
+<nav data-toggled="false" data-transitionable="false">
+    <div id="nav-logo-section" class="nav-section">
+      <a href="#">
+        <i class="fa-solid fa-dumpster-fire"></i>
+      </a>
+    </div>
+    <div id="nav-mobile-section">
+      <div id="nav-link-section" class="nav-section">
+        <a href="#">ABOUT</a>
+        <a href="#">WORK</a>
+      </div>
+      <div id="nav-social-section" class="nav-section">
+        <a href="#">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="https://www.youtube.com/c/Hyperplexed" target="_blank">
+          <i class="fa-brands fa-youtube"></i>
+        </a>    
+        <a href="#">
+          <i class="fa-brands fa-codepen"></i>
+        </a>
+      </div>
+      <div id="nav-contact-section" class="nav-section">
+        <a href="#">GET IN TOUCH</a>
+      </div>
+    </div>
+    <button id="nav-toggle-button" type="button" onclick="handleNavToggle()">
+      <span>Menu</span>
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </nav>
+  
+  <main>
+    <article data-index="0" data-status="active">
+      <div class="article-image-section article-section"></div>
+      <div class="article-description-section article-section">
+        <p>
+          This is a recreation (from scratch) of <a class="source-link" href="https://www.dylanbrouwer.design/work" target="_blank">dylanbrouwer.design/work</a>. See how I did it <a class="yt-link" href="https://youtu.be/nG2IyH43xMU" target="_blank"><i class="fa-brands fa-youtube"></i></a>.
+        </p>
+      </div>
+      <div class="article-title-section article-section">
+        <h2>Recreation From Scratch</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+            <i class="fa-light fa-arrow-right-long"></i>
+        </button>
+      </div>
+    </article>
+    <article data-index="1" data-status="inactive">    
+      <div class="article-image-section article-section"></div>
+      <div class="article-description-section article-section">
+        <p>A place where books hang out waiting to be grabbed. But don't be too grabby now, ya hear.</p>
+      </div>
+      <div class="article-title-section article-section">
+          <h2>Wicked Cool Library Shelves</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fa-light fa-arrow-right-long"></i>
+        </button>
+      </div>
+    </article>
+    <article data-index="2" data-status="inactive">    
+      <div class="article-image-section article-section"></div>
+      <div class="article-description-section article-section">
+        <p>The neatest lighthouse you ever saw. Ehh, actually it's kind of messy. But that's why the pic is of the outside.</p>
+      </div>
+      <div class="article-title-section article-section">
+        <h2>Neato Toledo Lighthouse</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fa-light fa-arrow-right-long"></i>
+        </button>
+      </div>
+    </article>
+    <article data-index="3" data-status="inactive">    
+      <div class="article-image-section article-section"></div>
+      <div class="article-description-section article-section">
+        <p>
+          The blobiest of blobs nestled deep in the heart of outer space. Well, technically the universe is both infinite and homogeneous so there isn't really a heart, per se.
+        </p>
+      </div>
+      <div class="article-title-section article-section">
+        <h2>Super Space Blob</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fa-light fa-arrow-right-long"></i>
+        </button>
+      </div>
+    </article>
+  </main>
