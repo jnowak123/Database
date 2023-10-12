@@ -1,0 +1,3 @@
+main () {
+    cout "Hello world"
+}

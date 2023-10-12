@@ -1,0 +1,33 @@
+def get_generation(cells, generations):
+
+    for g in range(generations):
+        new_cells = [[0 for x in range(len(cells[0]))] for y in range(len(cells))]
+
+        for x, row in enumerate(cells):
+            for y, col in enumerate(row):
+                
+                count = 0
+                if y != 0:
+                    count += cells[x-1][y]
+                if x != 0:
+                    count += cells[x][y-1]
+                if x != len(cells) -1:
+                    count += cells[x+1][y]
+                if y != len(row) -1:
+                    count += cells[x][y+1]
+
+                if cells[x][y] == 1 and (count < 2 or count > 3):
+                    new_cells[x][y] = 0
+                elif cells[x][y] == 0 and count == 3:
+                    new_cells[x][y] = 1
+                else:
+                    new_cells[x][y] == cells[x][y]
+
+                cells = new_cells
+
+    return cells
+
+print(get_generation(
+        [[1,0,0],
+         [0,1,1],
+         [1,1,0]], 1))
