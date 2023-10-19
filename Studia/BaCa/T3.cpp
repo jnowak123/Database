@@ -30,6 +30,4 @@ int main()
         n_count ++;
         cout << min << " " << max << " " << sum/5 << "\n";
     }
-    
-    
 }
