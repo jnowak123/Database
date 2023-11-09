@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "*.rb": "ruby",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "*.tcc": "cpp",
+        "fstream": "cpp"
     }
 }
