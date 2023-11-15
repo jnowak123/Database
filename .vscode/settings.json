@@ -3,6 +3,7 @@
         "*.rb": "ruby",
         "iostream": "cpp",
         "*.tcc": "cpp",
-        "fstream": "cpp"
+        "fstream": "cpp",
+        "c_podprogramyzbiorowe": "cpp"
     }
 }
